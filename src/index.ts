@@ -41,9 +41,13 @@
 // console.log( genericFunctionArrow<Villain>(deadpool).dangerLevel );
 
 
-import { getPokemon } from "./generics/getPokemon";
+// import { getPokemon } from "./generics/getPokemon";
 
-getPokemon(4)
-    .then( pokemon => console.log( pokemon.sprites.front_default ))
-    .catch( error => console.error( error))
-    .finally( () => console.log( 'Fin de getPokemon' ))
+// getPokemon(4)
+//     .then( pokemon => console.log( pokemon.sprites.front_default ))
+//     .catch( error => console.error( error))
+//     .finally( () => console.log( 'Fin de getPokemon' ))
+
+
+//Decorators
+
